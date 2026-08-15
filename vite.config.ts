@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Vinaybanala07-Codesoft-level2-task1-Jobboard/',
   plugins: [react()],
   resolve: {
     alias: {
